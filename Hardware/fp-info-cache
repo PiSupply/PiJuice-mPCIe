@@ -1,0 +1,218 @@
+50020319649514
+PiJuice_mPCIe_HAT_PcbLib
+BGA20N40P4X5_199X194X60N
+
+
+0
+20
+20
+PiJuice_mPCIe_HAT_PcbLib
+CE
+
+
+0
+0
+0
+PiJuice_mPCIe_HAT_PcbLib
+CONN_1X6_SMT_Through_Board
+Raspberry Pi Zero using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_Zero_1p2.pdf
+raspberry pi zero through hole
+0
+6
+6
+PiJuice_mPCIe_HAT_PcbLib
+CONN_2X20_SMT_Through_Board
+Raspberry Pi Zero using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_Zero_1p2.pdf
+raspberry pi zero through hole
+0
+40
+40
+PiJuice_mPCIe_HAT_PcbLib
+DF40C-12DP-0.4V-51
+12 Position Connector Plug, Outer Shroud Contacts, 2x6
+12 Position Connector Plug, Outer Shroud Contacts, 2x6
+0
+16
+16
+PiJuice_mPCIe_HAT_PcbLib
+DHVQFN14-2.5x3.kicad_mod
+
+
+0
+15
+15
+PiJuice_mPCIe_HAT_PcbLib
+DIODFN2_98X58X50L26X51N
+
+
+0
+2
+2
+PiJuice_mPCIe_HAT_PcbLib
+FBD_1206_3216Metric
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+PiJuice_mPCIe_HAT_PcbLib
+FCC
+
+
+0
+0
+0
+PiJuice_mPCIe_HAT_PcbLib
+KiCad
+
+
+0
+0
+0
+PiJuice_mPCIe_HAT_PcbLib
+LED_0402_1005Metric
+LED SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+PiJuice_mPCIe_HAT_PcbLib
+L_Murata_DFE2016
+Inductor, Murata, DFE2016, 2.0mmx1.6mm
+inductor murata md smd
+0
+2
+2
+PiJuice_mPCIe_HAT_PcbLib
+MPCIE_LATCH_0480994000
+SMD capacitor, aluminum electrolytic, Nichicon, 3.0x5.4mm
+capacitor electrolytic
+0
+4
+1
+PiJuice_mPCIe_HAT_PcbLib
+MountingHole_RPI_2.7mm_M2.5
+Mounting Hole 2.7mm, no annular, M2.5
+mounting hole 2.7mm no annular m2.5
+0
+0
+0
+PiJuice_mPCIe_HAT_PcbLib
+NANO_SIM8060-6-0-14-00-A
+
+
+0
+10
+7
+PiJuice_mPCIe_HAT_PcbLib
+PiSupply
+
+
+0
+0
+0
+PiJuice_mPCIe_HAT_PcbLib
+Pijuice
+
+
+0
+0
+0
+PiJuice_mPCIe_HAT_PcbLib
+PinHeader_1x02_P1.27mm_Vertical
+Through hole straight pin header, 1x02, 1.27mm pitch, single row
+Through hole pin header THT 1x02 1.27mm single row
+0
+2
+2
+PiJuice_mPCIe_HAT_PcbLib
+PinHeader_2x03_P2.54mm_Horizontal_SMD
+Through hole angled pin header, 2x03, 2.54mm pitch, 6mm pin length, double rows
+Through hole angled pin header THT 2x03 2.54mm double row
+0
+18
+6
+PiJuice_mPCIe_HAT_PcbLib
+PinHeader_2x04_P1.27mm_Shrouded_Vertical_SMD
+surface-mounted straight pin header, 2x04, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x04 1.27mm double row
+0
+8
+8
+PiJuice_mPCIe_HAT_PcbLib
+SODFL1006X40N
+
+
+0
+2
+2
+PiJuice_mPCIe_HAT_PcbLib
+SW_TACT_6X3
+https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/159/TL3302.pdf
+SMD SMT button
+0
+2
+2
+PiJuice_mPCIe_HAT_PcbLib
+ShortingJumperCapHorizontal-2_P2.54mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
+solder jumper open
+0
+0
+0
+PiJuice_mPCIe_HAT_PcbLib
+SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
+solder jumper open
+0
+2
+2
+PiJuice_mPCIe_HAT_PcbLib
+SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+PiJuice_mPCIe_HAT_PcbLib
+SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
+solder jumper open
+0
+3
+3
+PiJuice_mPCIe_HAT_PcbLib
+TE_1775838-2
+
+
+0
+54
+54
+PiJuice_mPCIe_HAT_PcbLib
+TestPoint_THTPad_D1.1mm_Drill0.55mm
+THT pad as test Point, diameter 1.1mm, hole diameter 0.55mm
+test point THT pad
+0
+1
+1
+PiJuice_mPCIe_HAT_PcbLib
+USB_C_Receptacle_GCT_USB4105-GF-A
+http://www.palpilot.com/wp-content/uploads/2017/05/UTC027-GKN-OR-Rev-A.pdf
+USB C Type-C Receptacle USB2.0
+0
+20
+17
+PiJuice_mPCIe_HAT_PcbLib
+nebra
+
+
+0
+0
+0
+PiJuice_mPCIe_HAT_PcbLib
+oshw
+
+
+0
+0
+0

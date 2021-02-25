@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PiJuice_mPCIe_HAT_PcbLib)(type KiCad)(uri ${KIPRJMOD}/PiJuice_mPCIe_HAT_PcbLib.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,2620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\Work\Raam\PiJuice\PiJuice_mPCIe_HAT\mPCIe_HAT.sch</source>
+    <date>2/25/2021 12:20:53 PM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>mPCIe_HAT-SchDoc</title>
+        <company/>
+        <rev/>
+        <date>09 02 2021</date>
+        <source>mPCIe_HAT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/U_RPI_port/" tstamps="/6022BA63/">
+      <title_block>
+        <title>RPI_port-SchDoc</title>
+        <company/>
+        <rev/>
+        <date>09 02 2021</date>
+        <source>RPI_port-SchDoc.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C8">
+      <value>470uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">EEEFTA471XAP</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CPOL-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298CD</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>470uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">EEEFTA471XAP</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CPOL-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298CC</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>470uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">EEEFTA471XAP</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CPOL-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298CB</tstamp>
+    </comp>
+    <comp ref="SK1">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:NANO_SIM8060-6-0-14-00-A</footprint>
+      <datasheet>https://gct.co/connector/digi-key/sim8060</datasheet>
+      <fields>
+        <field name="Manufacturer">GCT</field>
+        <field name="Part Number">SIM8060-6-0-14-00-A</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_SIM_SOCKET-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:DIODFN2_98X58X50L26X51N</footprint>
+      <fields>
+        <field name="Manufacturer">Littelfuse Inc</field>
+        <field name="Part Number">SP3030-01ETG</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DZ-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:DIODFN2_98X58X50L26X51N</footprint>
+      <fields>
+        <field name="Manufacturer">Littelfuse Inc</field>
+        <field name="Part Number">SP3030-01ETG</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DZ-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C6</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">CC0402JRNP09BN330</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">CC0402JRNP09BN330</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C4</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:DIODFN2_98X58X50L26X51N</footprint>
+      <fields>
+        <field name="Manufacturer">Littelfuse Inc</field>
+        <field name="Part Number">SP3030-01ETG</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DZ-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">CC0402JRNP09BN330</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0722RL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C1</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0722RL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C0</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0722RL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298BF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61E104KA87D</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298BD</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:DIODFN2_98X58X50L26X51N</footprint>
+      <fields>
+        <field name="Manufacturer">Littelfuse Inc</field>
+        <field name="Part Number">SP3030-01ETG</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DZ-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B8</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:DF40C-12DP-0.4V-51</footprint>
+      <datasheet>https://www.hirose.com/product/p/CL0684-4149-9-51</datasheet>
+      <fields>
+        <field name="Manufacturer">Hirose</field>
+        <field name="Part Number">DF40C-12DP-0.4V(51)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B7</tstamp>
+    </comp>
+    <comp ref="J27">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B6</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>~</value>
+      <footprint>Fiducial:Fiducial_1.5mm_Mask3mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B5</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>~</value>
+      <footprint>Fiducial:Fiducial_1.5mm_Mask3mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B4</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>~</value>
+      <footprint>Fiducial:Fiducial_1.5mm_Mask3mm</footprint>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RT0402FRE071KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B1</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:BGA20N40P4X5_199X194X60N</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/FAN49103-D.PDF</datasheet>
+      <fields>
+        <field name="Manfacturer">ON Semiconductor</field>
+        <field name="Part Number">FAN49103AUC340X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="VOLREG_FAN49103-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298AD</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:TE_1775838-2</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/TE-Connectivity-1775838-2_C91936.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Part Number">1775838-2</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_PCIe_MiniCard-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A3</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>1uH</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:L_Murata_DFE2016</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">DFE201612E-1R0M</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="LCI-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A2</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:TestPoint_THTPad_D1.1mm_Drill0.55mm</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="TP-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A0</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:TestPoint_THTPad_D1.1mm_Drill0.55mm</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="TP-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022989F</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022989E</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022989D</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022989C</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022989A</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>~</value>
+      <footprint>Package_TO_SOT_SMD:SOT-723</footprint>
+      <datasheet>https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/discrete/transistor/digital/dtc023eebtl-e.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Rohm</field>
+        <field name="Part Number">DTC023EMT2L</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="DTC123E" description="Digital NPN Transistor, 2k2/2k2, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229899</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM21BR61A476ME15L</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229897</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61E104KA87D</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229896</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="TP-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229895</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:DHVQFN14-2.5x3.kicad_mod</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74CBTLV3125.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Part Number">74CBTLV3125BQ,115</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="VSW_74CBTLV3125BQ-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229894</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229893</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229892</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229891</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229890</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022988F</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022988E</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022988D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61E104KA87D</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022988C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM21BR61A476ME15L</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229881</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>470uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">EEEFTA471XAP</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CPOL-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229876</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:DIODFN2_98X58X50L26X51N</footprint>
+      <fields>
+        <field name="Manufacturer">Littelfuse Inc</field>
+        <field name="Part Number">SP3030-01ETG</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DZ-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298C8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>15K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402JR-0715KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298BE</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>MPCIE_LATCH</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:MPCIE_LATCH_0480994000</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/480994000_Dwg.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Part Number">0480994000</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="MPCIE_LATCH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028CDD6</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:USB_C_Receptacle_GCT_USB4105-GF-A</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="Manufacturer">SHOUHAN</field>
+        <field name="Part Number">TYPE-C.16PIN.040</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60317DFF</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-075K1L</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60555108</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022989B</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SODFL1006X40N</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Part Number">NSR0240P2T5G</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DSH-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6061029A</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SODFL1006X40N</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Part Number">NSR0240P2T5G</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DSH-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6062F95E</tstamp>
+    </comp>
+    <comp ref="J28">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6064F3D7</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607E3FDA</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SODFL1006X40N</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Part Number">NSR0240P2T5G</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DSH-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A7F570</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022987B</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022987D</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022987E</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022987F</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229880</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229882</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229883</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229884</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229885</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229886</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SODFL1006X40N</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Part Number">NSR0240P2T5G</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DSH-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229887</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229888</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>~</value>
+      <footprint>Package_SON:USON-20_2x4mm_P0.4mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/txb0108.pdf?ts=1613026212791&amp;ref_url=https%253A%252F%252F192.168.172.80%252Fconnect%252FPortalMain</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">TXB0108DQSR</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="VTR_TXB0108_USON-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229889</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61E104KA87D</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022988A</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61E104KA87D</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022988B</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:PinHeader_1x02_P1.27mm_Vertical</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_HEADER_1x2-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A4</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:PinHeader_1x02_P1.27mm_Vertical</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_HEADER_1x2-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A5</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>Green</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:LED_0402_1005Metric</footprint>
+      <datasheet>https://www.kingbrightusa.com/images/catalog/SPEC/APG1005VGC-T-5MAV.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Part Number">APG1005VGC-T-5MAV</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DLED-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B2</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A34E78</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.1mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A34E7E</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC856BS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC856BS.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Part Number">BC856S</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC856BS" description="100mA IC, 65V Vce, Dual PNP/PNP Transistors, SOT-363"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DD7D1A</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>15K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402JR-0715KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F0D910</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>62K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-0762KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F54679</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>DMP3013SFV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Part Number">DMP2035U</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6104B86A</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:TestPoint_THTPad_D1.1mm_Drill0.55mm</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="TP-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229877</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:TestPoint_THTPad_D1.1mm_Drill0.55mm</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="TP-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60229875</tstamp>
+    </comp>
+    <comp ref="J26">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AD37FB</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61E104KA87D</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62811B89</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61E104KA87D</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6297476D</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B0</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022987A</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298AA</tstamp>
+    </comp>
+    <comp ref="J24">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A6</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A7</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A8</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A9</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298AB</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298AC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298AE</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:TestPoint_THTPad_D1.1mm_Drill0.55mm</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="TP-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298A1</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:CONN_1X6_SMT_Through_Board</footprint>
+      <datasheet>https://gct.co/connector/BG125</datasheet>
+      <fields>
+        <field name="Alternative">BS1-006-H500-55/B</field>
+        <field name="Alternative Manufacturer Alternative">E-tec</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="Part Number">BG125-06-A-1-1-0440-N-C</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_HEADER_1x6L-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298CA</tstamp>
+    </comp>
+    <comp ref="J32">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:ShortingJumperCapHorizontal-2_P2.54mm</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/snt.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec Inc</field>
+        <field name="Part Number">SNT-100-BK-G</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_JUMPER_FEMALE-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617B52FD</tstamp>
+    </comp>
+    <comp ref="J31">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:ShortingJumperCapHorizontal-2_P2.54mm</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/snt.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Samtec Inc</field>
+        <field name="Part Number">SNT-100-BK-G</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_JUMPER_FEMALE-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298BB</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>33pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">CC0402JRNP09BN330</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298B9</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:FBD_1206_3216Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Laird Technologies</field>
+        <field name="Part Number">HI1206T500R-10</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="LFB-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298BA</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:PinHeader_2x03_P2.54mm_Horizontal_SMD</footprint>
+      <datasheet>http://www.4uconnector.com/online/object/4udrawing/11144.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">4UCON</field>
+        <field name="Part Number">11144</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_HEADER_2x3-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298BC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Part Number">ERJ2RKF2200X</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602298AF</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:TestPoint_THTPad_D1.1mm_Drill0.55mm</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="TP-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022987C</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-075K1L</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6072C2E5</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Murata</field>
+        <field name="Part Number">GRM155R61E104KA87D</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="CCER-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>6022986B</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>~</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Part Number">CAT24C32WI-GT3</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="MEMEEPROM_24AA512-I_MF_8-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>6022986C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:PinHeader_1x02_P1.27mm_Vertical</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_HEADER_1x2-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60229869</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="TP-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60229866</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-075K1L</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60229867</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>EMCON_RPI_GPIO_HEADER_2x20</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:CONN_2X20_SMT_Through_Board</footprint>
+      <datasheet>https://www.toby.co.uk/uploads/publications/1540.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">TOBY</field>
+        <field name="Part Number">REF-182665-01</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_RPI_GPIO_HEADER_2x20" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60256744</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>jumper</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60229868</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RT0402FRE071KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60CCDF6A</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>Blue</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:LED_0402_1005Metric</footprint>
+      <datasheet>https://www.kingbrightusa.com/images/catalog/SPEC/APG1005VGC-T-5MAV.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Part Number">Kingbright</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="DLED-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60CCDF72</tstamp>
+    </comp>
+    <comp ref="J29">
+      <value>~</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60CF776A</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SW_TACT_6X3</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/159/TL3302.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Part Number">TL3302AF180QJ</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60D4538C</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>15K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402JR-0715KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60D49DA0</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RT0402FRE071KL</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60D4DD02</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:MountingHole_RPI_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>609730C2</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:MountingHole_RPI_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>6097995B</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:MountingHole_RPI_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>6097B143</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:MountingHole_RPI_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>6097C95F</tstamp>
+    </comp>
+    <comp ref="LG1">
+      <value>PiSupply</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:PiSupply</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="LOGO" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60D93F3E</tstamp>
+    </comp>
+    <comp ref="LG2">
+      <value>FCC</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:FCC</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="LOGO" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60D93F44</tstamp>
+    </comp>
+    <comp ref="LG4">
+      <value>WEEE</value>
+      <footprint>Symbol:WEEE-Logo_4.2x6mm_SilkScreen</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="LOGO" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60D95CB5</tstamp>
+    </comp>
+    <comp ref="LG3">
+      <value>CE</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:CE</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="LOGO" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60D95CBB</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>EMCON_HEADER_1x2-</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="EMCON_HEADER_1x2-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>61AC15B8</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>jumper</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:SolderJumper-3_P1.3mm_Bridged12_Pad1x2.2mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>6228CC9E</tstamp>
+    </comp>
+    <comp ref="LG6">
+      <value>PiJuice</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:Pijuice</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="LOGO" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>62399645</tstamp>
+    </comp>
+    <comp ref="LG5">
+      <value>ESD</value>
+      <footprint>Symbol:Symbol_ESD-Logo_CopperTop</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="LOGO" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>60D98E3B</tstamp>
+    </comp>
+    <comp ref="LG7">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:oshw</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>623C4EA1</tstamp>
+    </comp>
+    <comp ref="LG8">
+      <value>KiCad</value>
+      <footprint>PiJuice_mPCIe_HAT_PcbLib:KiCad</footprint>
+      <libsource lib="mPCIe_HAT-SchLib" part="LOGO" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>61C44494</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-075K1L</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>61D2DB6F</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>5K1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Part Number">RC0402FR-075K1L</field>
+      </fields>
+      <libsource lib="mPCIe_HAT-SchLib" part="R-" description=""/>
+      <sheetpath names="/U_RPI_port/" tstamps="/6022BA63/"/>
+      <tstamp>61D2F5CC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+      </fields>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC856BS">
+      <aliases>
+        <alias>BC856BDW1</alias>
+        <alias>BC857BS</alias>
+        <alias>BC857BDW1</alias>
+        <alias>PMBT3906YS</alias>
+        <alias>MMDT3906</alias>
+        <alias>MBT3906DW1</alias>
+        <alias>FFB3906</alias>
+        <alias>MMDT5401</alias>
+        <alias>PUMT1</alias>
+      </aliases>
+      <description>100mA IC, 65V Vce, Dual PNP/PNP Transistors, SOT-363</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BC856BS.pdf</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC856BS</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="passive"/>
+        <pin num="2" name="B1" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="B2" type="input"/>
+        <pin num="6" name="C1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="DTC123E">
+      <description>Digital NPN Transistor, 2k2/2k2, SOT-23</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>SC?59*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DTC123E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="CCER-">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CCER-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="CPOL-">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="DLED-">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DLED-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANODE" type="passive"/>
+        <pin num="2" name="CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="DSH-">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DSH-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANODE" type="passive"/>
+        <pin num="2" name="CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="DZ-">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DZ-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANODE" type="passive"/>
+        <pin num="2" name="CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="EMCON_HEADER_1x2-">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">EMCON_HEADER_1x2-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="EMCON_HEADER_1x6L-">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">EMCON_HEADER_1x6L-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="EMCON_HEADER_2x3-">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">EMCON_HEADER_2x3-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="EMCON_JUMPER_FEMALE-">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">EMCON_JUMPER_FEMALE-</field>
+      </fields>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="EMCON_PCIe_MiniCard-">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">EMCON_PCIe_MiniCard-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="WAKE#" type="passive"/>
+        <pin num="2" name="+3.3V" type="power_in"/>
+        <pin num="3" name="RSVD12" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="RSVD11" type="passive"/>
+        <pin num="6" name="+1.5V" type="power_in"/>
+        <pin num="7" name="CLKREQ#" type="output"/>
+        <pin num="8" name="UIM_PWR" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="UIM_DATA" type="passive"/>
+        <pin num="11" name="REFCLK-" type="input"/>
+        <pin num="12" name="UIM_CLK" type="passive"/>
+        <pin num="13" name="REFCLK+" type="input"/>
+        <pin num="14" name="UIM_RESET" type="passive"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="UIM_VPP" type="power_in"/>
+        <pin num="17" name="RSVD10" type="passive"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="RSVD9" type="passive"/>
+        <pin num="20" name="W_DISABLE" type="input"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="PERST#" type="input"/>
+        <pin num="23" name="PERn0" type="output"/>
+        <pin num="24" name="+3.3Vaux" type="power_in"/>
+        <pin num="25" name="PERp0" type="output"/>
+        <pin num="26" name="GND" type="power_in"/>
+        <pin num="27" name="GND" type="power_in"/>
+        <pin num="28" name="+1.5V" type="power_in"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="SMB_CLK" type="input"/>
+        <pin num="31" name="PETn0" type="input"/>
+        <pin num="32" name="SMB_DATA" type="BiDi"/>
+        <pin num="33" name="PETp0" type="input"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="USB_D-" type="BiDi"/>
+        <pin num="37" name="RSVD8" type="passive"/>
+        <pin num="38" name="USB_D+" type="BiDi"/>
+        <pin num="39" name="RSVD7" type="passive"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="RSVD6" type="passive"/>
+        <pin num="42" name="LED_WWAN#" type="passive"/>
+        <pin num="43" name="RSVD5" type="passive"/>
+        <pin num="44" name="LED_WLAN#" type="passive"/>
+        <pin num="45" name="RSVD4" type="passive"/>
+        <pin num="46" name="LED_WPAN#" type="passive"/>
+        <pin num="47" name="RSVD3" type="passive"/>
+        <pin num="48" name="+1.5V" type="power_in"/>
+        <pin num="49" name="RSVD2" type="passive"/>
+        <pin num="50" name="GND" type="power_in"/>
+        <pin num="51" name="RSVD1" type="passive"/>
+        <pin num="52" name="+3.3V" type="power_in"/>
+        <pin num="SH1" name="~" type="passive"/>
+        <pin num="SH2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="EMCON_RPI_GPIO_HEADER_2x20">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">EMCON_RPI_GPIO_HEADER_2x20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="5V" type="power_in"/>
+        <pin num="3" name="SDA/GPIO2" type="BiDi"/>
+        <pin num="4" name="5V" type="power_in"/>
+        <pin num="5" name="SCL/GPIO3" type="BiDi"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GCLK0/GPIO4" type="BiDi"/>
+        <pin num="8" name="GPIO14/TXD" type="BiDi"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO15/RXD" type="BiDi"/>
+        <pin num="11" name="GPIO17" type="BiDi"/>
+        <pin num="12" name="GPIO18/PWM0" type="BiDi"/>
+        <pin num="13" name="GPIO27" type="BiDi"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GPIO22" type="BiDi"/>
+        <pin num="16" name="GPIO23" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_in"/>
+        <pin num="18" name="GPIO24" type="BiDi"/>
+        <pin num="19" name="MOSI0/GPIO10" type="BiDi"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="MISO0/GPIO9" type="BiDi"/>
+        <pin num="22" name="GPIO25" type="BiDi"/>
+        <pin num="23" name="SCLK0/GPIO11" type="BiDi"/>
+        <pin num="24" name="~CE0~/GPIO8" type="BiDi"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="~CE1~/GPIO7" type="BiDi"/>
+        <pin num="27" name="ID_SD/GPIO0" type="BiDi"/>
+        <pin num="28" name="ID_SC/GPIO1" type="BiDi"/>
+        <pin num="29" name="GCLK1/GPIO5" type="BiDi"/>
+        <pin num="30" name="GND" type="power_in"/>
+        <pin num="31" name="GCLK2/GPIO6" type="BiDi"/>
+        <pin num="32" name="PWM0/GPIO12" type="BiDi"/>
+        <pin num="33" name="PWM1/GPIO13" type="BiDi"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GPIO19/MISO1" type="BiDi"/>
+        <pin num="36" name="GPIO16" type="BiDi"/>
+        <pin num="37" name="GPIO26" type="BiDi"/>
+        <pin num="38" name="GPIO20/MOSI1" type="BiDi"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GPIO21/SCLK1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="EMCON_SIM_SOCKET-">
+      <fields>
+        <field name="Reference">SK</field>
+        <field name="Value">EMCON_SIM_SOCKET-</field>
+        <field name="Footprint">PiJuice_mPCIe_HAT:NANO_SIM8060-6-0-14-00-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CASE" type="passive"/>
+        <pin num="C1" name="VCC" type="power_in"/>
+        <pin num="C2" name="MCLR" type="passive"/>
+        <pin num="C3" name="RB6/OSC1" type="input"/>
+        <pin num="C5" name="VSS" type="power_in"/>
+        <pin num="C6" name="NC" type="passive"/>
+        <pin num="C7" name="RB7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="LCI-">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">LCI-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="LFB-">
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">LFB-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="LOGO">
+      <fields>
+        <field name="Reference">LG</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="MEMEEPROM_24AA512-I_MF_8-">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MEMEEPROM_24AA512-I_MF_8-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="MPCIE_LATCH">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">MPCIE_LATCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="R-">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="TP-">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="VOLREG_FAN49103-">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VOLREG_FAN49103-</field>
+        <field name="Footprint">PiJuice_mPCIe_HAT_PcbLib:BGA20N40P4X5_199X194X60N</field>
+        <field name="Part Number">FAN49103AUC340X</field>
+        <field name="Manfacturer">ON Semiconductor</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="AVIN" type="power_in"/>
+        <pin num="A2" name="EN" type="input"/>
+        <pin num="A3" name="PVIN" type="power_in"/>
+        <pin num="A4" name="PVIN" type="power_in"/>
+        <pin num="B1" name="PGND" type="power_in"/>
+        <pin num="B2" name="SCL" type="input"/>
+        <pin num="B3" name="SW1" type="passive"/>
+        <pin num="B4" name="SW1" type="passive"/>
+        <pin num="C1" name="PGND" type="power_in"/>
+        <pin num="C2" name="PGND" type="power_in"/>
+        <pin num="C3" name="PGND" type="power_in"/>
+        <pin num="C4" name="PGND" type="power_in"/>
+        <pin num="D1" name="PGND" type="power_in"/>
+        <pin num="D2" name="SDA" type="BiDi"/>
+        <pin num="D3" name="SW2" type="passive"/>
+        <pin num="D4" name="SW2" type="passive"/>
+        <pin num="E1" name="AGND" type="power_in"/>
+        <pin num="E2" name="PG" type="openCol"/>
+        <pin num="E3" name="VOUT" type="passive"/>
+        <pin num="E4" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="VSW_74CBTLV3125BQ-">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VSW_74CBTLV3125BQ-</field>
+        <field name="Footprint">PiJuice_mPCIe_HAT_PcbLib:DHVQFN14-2.5x3.kicad_mod</field>
+        <field name="Part Number">74CBTLV3125BQ,115</field>
+        <field name="Manufacturer">NEXPERIA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~1OE" type="input"/>
+        <pin num="2" name="1A" type="passive"/>
+        <pin num="3" name="1B" type="passive"/>
+        <pin num="4" name="~2OE" type="input"/>
+        <pin num="5" name="2A" type="passive"/>
+        <pin num="6" name="2B" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="3B" type="passive"/>
+        <pin num="9" name="3A" type="passive"/>
+        <pin num="10" name="~3OE" type="input"/>
+        <pin num="11" name="4B" type="passive"/>
+        <pin num="12" name="4A" type="passive"/>
+        <pin num="13" name="~4OE" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="mPCIe_HAT-SchLib" part="VTR_TXB0108_USON-">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VTR_TXB0108_USON-</field>
+        <field name="Footprint">Package_SON:USON-20_2x4mm_P0.4mm</field>
+        <field name="Part Number">TXB0108DQSR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="BiDi"/>
+        <pin num="2" name="A2" type="BiDi"/>
+        <pin num="3" name="A3" type="BiDi"/>
+        <pin num="4" name="A4" type="BiDi"/>
+        <pin num="5" name="VCCA" type="power_in"/>
+        <pin num="6" name="OE" type="input"/>
+        <pin num="7" name="A5" type="BiDi"/>
+        <pin num="8" name="A6" type="BiDi"/>
+        <pin num="9" name="A7" type="BiDi"/>
+        <pin num="10" name="A8" type="BiDi"/>
+        <pin num="11" name="B8" type="BiDi"/>
+        <pin num="12" name="B7" type="BiDi"/>
+        <pin num="13" name="B6" type="BiDi"/>
+        <pin num="14" name="B5" type="BiDi"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="VCCB" type="power_in"/>
+        <pin num="17" name="B4" type="BiDi"/>
+        <pin num="18" name="B3" type="BiDi"/>
+        <pin num="19" name="B2" type="BiDi"/>
+        <pin num="20" name="B1" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Graphic.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="mPCIe_HAT-SchLib">
+      <uri>E:\Work\Raam\PiJuice\PiJuice_mPCIe_HAT/mPCIe_HAT-SchLib.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C15-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="10"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D11-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="3" name="/S_TX">
+      <node ref="TP7" pin="1"/>
+      <node ref="P4" pin="19"/>
+      <node ref="U3" pin="1"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="5" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="6" name="/RXD">
+      <node ref="J15" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="7" name="/Q_RI/S_RX">
+      <node ref="P4" pin="17"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="8" name="/TXD">
+      <node ref="U3" pin="20"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="9" name="/Q_RX/S_CT">
+      <node ref="U3" pin="4"/>
+      <node ref="P4" pin="11"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="10" name="/S_RI">
+      <node ref="U3" pin="7"/>
+      <node ref="P4" pin="44"/>
+    </net>
+    <net code="11" name="PI_3V3">
+      <node ref="D10" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U2" pin="14"/>
+      <node ref="R31" pin="1"/>
+      <node ref="P1" pin="17"/>
+      <node ref="R34" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="J28" pin="2"/>
+    </net>
+    <net code="13" name="VIN">
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="A3"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="U1" pin="A4"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="U1" pin="A1"/>
+      <node ref="J28" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C17" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="SK1" pin="C5"/>
+      <node ref="SK1" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="P1" pin="39"/>
+      <node ref="P1" pin="6"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="34"/>
+      <node ref="J5" pin="1"/>
+      <node ref="P4" pin="35"/>
+      <node ref="P4" pin="37"/>
+      <node ref="P4" pin="4"/>
+      <node ref="P4" pin="40"/>
+      <node ref="P4" pin="50"/>
+      <node ref="P1" pin="9"/>
+      <node ref="D7" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="P1" pin="30"/>
+      <node ref="P1" pin="20"/>
+      <node ref="P1" pin="25"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="J2" pin="2"/>
+      <node ref="P4" pin="34"/>
+      <node ref="P1" pin="14"/>
+      <node ref="U1" pin="C1"/>
+      <node ref="U2" pin="15"/>
+      <node ref="D3" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="P5" pin="15"/>
+      <node ref="P5" pin="16"/>
+      <node ref="P5" pin="2"/>
+      <node ref="P5" pin="3"/>
+      <node ref="U1" pin="B1"/>
+      <node ref="P4" pin="27"/>
+      <node ref="P4" pin="SH2"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="P4" pin="29"/>
+      <node ref="P4" pin="9"/>
+      <node ref="P4" pin="SH1"/>
+      <node ref="U1" pin="C3"/>
+      <node ref="U1" pin="C4"/>
+      <node ref="U1" pin="D1"/>
+      <node ref="U1" pin="E1"/>
+      <node ref="U1" pin="C2"/>
+      <node ref="P4" pin="15"/>
+      <node ref="P4" pin="18"/>
+      <node ref="P4" pin="21"/>
+      <node ref="P4" pin="26"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="K1" pin="A1"/>
+      <node ref="K1" pin="S1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="K1" pin="B12"/>
+      <node ref="R26" pin="2"/>
+      <node ref="K1" pin="B1"/>
+      <node ref="P3" pin="3"/>
+      <node ref="K1" pin="A12"/>
+      <node ref="R33" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="M1" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="15" name="/S_DTR">
+      <node ref="R19" pin="1"/>
+      <node ref="P4" pin="46"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="16" name="Net-(R18-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="17" name="/Q_TX/S_RT">
+      <node ref="P4" pin="13"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="18" name="/B_RI">
+      <node ref="U2" pin="11"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="19" name="/DTR">
+      <node ref="P4" pin="31"/>
+      <node ref="J18" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="20" name="/CTS">
+      <node ref="U3" pin="17"/>
+      <node ref="P4" pin="23"/>
+      <node ref="J24" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="21" name="/Q_~OE~">
+      <node ref="U3" pin="11"/>
+      <node ref="R24" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="22" name="/RTS">
+      <node ref="R16" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U3" pin="18"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="23" name="/EAR1P">
+      <node ref="J9" pin="1"/>
+      <node ref="P4" pin="5"/>
+      <node ref="P5" pin="11"/>
+    </net>
+    <net code="24" name="/EAR1N">
+      <node ref="P4" pin="7"/>
+      <node ref="P5" pin="13"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="25" name="/~WAKE~/MIC1P">
+      <node ref="P4" pin="1"/>
+      <node ref="P5" pin="12"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J19" pin="3"/>
+    </net>
+    <net code="26" name="/MIC1N">
+      <node ref="P4" pin="3"/>
+      <node ref="J8" pin="2"/>
+      <node ref="P5" pin="14"/>
+    </net>
+    <net code="27" name="/D_P">
+      <node ref="D3" pin="2"/>
+      <node ref="K1" pin="B6"/>
+      <node ref="K1" pin="A6"/>
+      <node ref="P4" pin="38"/>
+    </net>
+    <net code="28" name="Net-(K1-PadB8)">
+      <node ref="K1" pin="B8"/>
+    </net>
+    <net code="29" name="Net-(K1-PadA8)">
+      <node ref="K1" pin="A8"/>
+    </net>
+    <net code="30" name="Net-(J27-Pad1)">
+      <node ref="P4" pin="16"/>
+      <node ref="J27" pin="1"/>
+    </net>
+    <net code="31" name="/GPIO23">
+      <node ref="P1" pin="16"/>
+      <node ref="J10" pin="3"/>
+    </net>
+    <net code="32" name="/PISDA">
+      <node ref="J13" pin="1"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="33" name="USIM_VCC">
+      <node ref="P4" pin="8"/>
+      <node ref="SK1" pin="C1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="34" name="PCIe_VS">
+      <node ref="P5" pin="4"/>
+      <node ref="P4" pin="52"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="U1" pin="E4"/>
+      <node ref="U1" pin="E3"/>
+      <node ref="P4" pin="41"/>
+      <node ref="P4" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="P4" pin="39"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="35" name="Net-(K1-PadA5)">
+      <node ref="R26" pin="1"/>
+      <node ref="K1" pin="A5"/>
+    </net>
+    <net code="36" name="Net-(K1-PadB5)">
+      <node ref="K1" pin="B5"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="38" name="/GPIO6">
+      <node ref="J12" pin="1"/>
+      <node ref="P1" pin="31"/>
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="39" name="/GPIO4">
+      <node ref="J12" pin="3"/>
+      <node ref="J11" pin="1"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="40" name="/RI">
+      <node ref="R12" pin="1"/>
+      <node ref="J12" pin="2"/>
+      <node ref="J19" pin="1"/>
+    </net>
+    <net code="41" name="/~PERST~">
+      <node ref="C16" pin="2"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="P4" pin="22"/>
+    </net>
+    <net code="42" name="/PCIe_VS_EN">
+      <node ref="U1" pin="A2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="43" name="Net-(P4-Pad42)">
+      <node ref="R9" pin="1"/>
+      <node ref="P4" pin="42"/>
+    </net>
+    <net code="44" name="Net-(J16-Pad2)">
+      <node ref="J16" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="45" name="Net-(J15-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="46" name="Net-(J17-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="J17" pin="2"/>
+    </net>
+    <net code="47" name="Net-(P4-Pad48)">
+      <node ref="P4" pin="48"/>
+    </net>
+    <net code="48" name="Net-(P4-Pad28)">
+      <node ref="P4" pin="28"/>
+    </net>
+    <net code="49" name="Net-(P4-Pad24)">
+      <node ref="P4" pin="24"/>
+    </net>
+    <net code="50" name="Net-(P4-Pad43)">
+      <node ref="P4" pin="43"/>
+    </net>
+    <net code="51" name="Net-(P4-Pad6)">
+      <node ref="P4" pin="6"/>
+    </net>
+    <net code="52" name="/CE0">
+      <node ref="P1" pin="24"/>
+      <node ref="J23" pin="1"/>
+    </net>
+    <net code="53" name="Net-(J23-Pad2)">
+      <node ref="R15" pin="1"/>
+      <node ref="J23" pin="2"/>
+      <node ref="J24" pin="2"/>
+    </net>
+    <net code="54" name="/MOSI">
+      <node ref="P1" pin="19"/>
+      <node ref="J22" pin="1"/>
+    </net>
+    <net code="55" name="Net-(J20-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="J20" pin="2"/>
+    </net>
+    <net code="56" name="/CLK">
+      <node ref="P1" pin="23"/>
+      <node ref="J20" pin="1"/>
+    </net>
+    <net code="57" name="/MISO">
+      <node ref="P1" pin="21"/>
+      <node ref="J21" pin="1"/>
+    </net>
+    <net code="58" name="Net-(J21-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="J21" pin="2"/>
+    </net>
+    <net code="59" name="Net-(J22-Pad2)">
+      <node ref="J22" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="60" name="/PCM_FS">
+      <node ref="R15" pin="2"/>
+      <node ref="P4" pin="51"/>
+      <node ref="P5" pin="8"/>
+    </net>
+    <net code="61" name="/PCM_DIN">
+      <node ref="R10" pin="2"/>
+      <node ref="P4" pin="49"/>
+      <node ref="P5" pin="7"/>
+    </net>
+    <net code="62" name="/PCM_DOUT">
+      <node ref="P4" pin="47"/>
+      <node ref="P5" pin="6"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="63" name="/PCM_CLK">
+      <node ref="R14" pin="2"/>
+      <node ref="P4" pin="45"/>
+      <node ref="P5" pin="5"/>
+    </net>
+    <net code="64" name="/~WKUP~">
+      <node ref="J26" pin="2"/>
+      <node ref="P3" pin="6"/>
+      <node ref="J25" pin="3"/>
+      <node ref="J19" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="65" name="Net-(P3-Pad4)">
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="66" name="/IO1">
+      <node ref="J18" pin="3"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="67" name="/GPIO25">
+      <node ref="P1" pin="22"/>
+      <node ref="J18" pin="1"/>
+    </net>
+    <net code="68" name="/POWIN">
+      <node ref="C5" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="69" name="PI_5V">
+      <node ref="J6" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="70" name="/VBAT">
+      <node ref="D9" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="71" name="Net-(Q2-Pad2)">
+      <node ref="R32" pin="1"/>
+      <node ref="Q2" pin="5"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q2" pin="6"/>
+    </net>
+    <net code="72" name="Net-(Q2-Pad4)">
+      <node ref="R33" pin="2"/>
+      <node ref="Q2" pin="4"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="73" name="/VUSB">
+      <node ref="J6" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="74" name="/VBUS">
+      <node ref="Q2" pin="1"/>
+      <node ref="K1" pin="B4"/>
+      <node ref="K1" pin="A4"/>
+      <node ref="K1" pin="B9"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="K1" pin="A9"/>
+    </net>
+    <net code="75" name="/PISCL">
+      <node ref="J26" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="76" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="77" name="/SMBD">
+      <node ref="P5" pin="9"/>
+      <node ref="J13" pin="3"/>
+      <node ref="P4" pin="32"/>
+    </net>
+    <net code="78" name="/GPIO27">
+      <node ref="J10" pin="1"/>
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="79" name="/Q_RT">
+      <node ref="P4" pin="25"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="80" name="/SIMCLK">
+      <node ref="D2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="SK1" pin="C3"/>
+    </net>
+    <net code="81" name="/SMBC">
+      <node ref="P4" pin="30"/>
+      <node ref="J14" pin="3"/>
+      <node ref="P5" pin="10"/>
+    </net>
+    <net code="82" name="/SIMVPP">
+      <node ref="J27" pin="2"/>
+      <node ref="SK1" pin="C6"/>
+    </net>
+    <net code="83" name="Net-(P4-Pad10)">
+      <node ref="P4" pin="10"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="84" name="Net-(P4-Pad14)">
+      <node ref="P4" pin="14"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="85" name="/SIMRST">
+      <node ref="R5" pin="2"/>
+      <node ref="SK1" pin="C2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="86" name="Net-(P4-Pad12)">
+      <node ref="P4" pin="12"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="87" name="/GPIO17">
+      <node ref="R8" pin="1"/>
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="88" name="Net-(P4-Pad33)">
+      <node ref="P4" pin="33"/>
+    </net>
+    <net code="89" name="/SDA">
+      <node ref="J13" pin="2"/>
+      <node ref="U1" pin="D2"/>
+    </net>
+    <net code="90" name="/SCL">
+      <node ref="U1" pin="B2"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="91" name="/RPI_TXD">
+      <node ref="P1" pin="8"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="92" name="/RPI_RXD">
+      <node ref="P1" pin="10"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="93" name="/GPIO16">
+      <node ref="P1" pin="36"/>
+      <node ref="J17" pin="1"/>
+    </net>
+    <net code="94" name="/D_N">
+      <node ref="D4" pin="2"/>
+      <node ref="K1" pin="A7"/>
+      <node ref="K1" pin="B7"/>
+      <node ref="P4" pin="36"/>
+    </net>
+    <net code="95" name="/SIMIO">
+      <node ref="SK1" pin="C7"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="96" name="Net-(U1-PadE2)">
+      <node ref="U1" pin="E2"/>
+    </net>
+    <net code="97" name="/~WDIS~">
+      <node ref="P4" pin="20"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="98" name="Net-(L1-Pad1)">
+      <node ref="U1" pin="D4"/>
+      <node ref="U1" pin="D3"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="99" name="Net-(L1-Pad2)">
+      <node ref="U1" pin="B3"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="B4"/>
+    </net>
+    <net code="100" name="Net-(P1-Pad38)">
+      <node ref="P1" pin="38"/>
+    </net>
+    <net code="101" name="Net-(P1-Pad40)">
+      <node ref="P1" pin="40"/>
+    </net>
+    <net code="102" name="Net-(P1-Pad15)">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="103" name="Net-(P1-Pad18)">
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="104" name="Net-(P1-Pad37)">
+      <node ref="P1" pin="37"/>
+    </net>
+    <net code="105" name="Net-(P1-Pad32)">
+      <node ref="P1" pin="32"/>
+    </net>
+    <net code="106" name="Net-(P1-Pad29)">
+      <node ref="P1" pin="29"/>
+    </net>
+    <net code="107" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="108" name="Net-(P1-Pad35)">
+      <node ref="P1" pin="35"/>
+    </net>
+    <net code="109" name="Net-(P1-Pad12)">
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="110" name="Net-(D7-Pad1)">
+      <node ref="R30" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="111" name="Net-(J29-Pad1)">
+      <node ref="J29" pin="1"/>
+      <node ref="P1" pin="33"/>
+    </net>
+    <net code="112" name="Net-(J29-Pad2)">
+      <node ref="J29" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="113" name="Net-(J25-Pad1)">
+      <node ref="J25" pin="1"/>
+      <node ref="P1" pin="26"/>
+    </net>
+    <net code="114" name="Net-(J4-Pad2)">
+      <node ref="R29" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="115" name="Net-(J25-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="J25" pin="2"/>
+    </net>
+    <net code="116" name="/U_RPI_port/ID_SCL">
+      <node ref="R35" pin="2"/>
+      <node ref="U5" pin="6"/>
+      <node ref="P1" pin="28"/>
+    </net>
+    <net code="117" name="/U_RPI_port/ID_SDA">
+      <node ref="U5" pin="5"/>
+      <node ref="R34" pin="2"/>
+      <node ref="P1" pin="27"/>
+    </net>
+    <net code="119" name="Net-(J2-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="J2" pin="1"/>
+    </net>
+  </nets>
+</export>
