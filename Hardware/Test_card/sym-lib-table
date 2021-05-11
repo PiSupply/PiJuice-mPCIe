@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name mPCIe_test_card)(type Legacy)(uri ${KIPRJMOD}/mPCIe_test_card.lib)(options "")(descr ""))
+)
