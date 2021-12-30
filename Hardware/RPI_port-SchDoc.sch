@@ -4,10 +4,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 2 2
-Title "RPI_port-SchDoc"
-Date "09 02 2021"
-Rev ""
-Comp ""
+Title "RPI HAT Interface"
+Date "2021-12-30"
+Rev "1.1"
+Comp "Nebra Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""

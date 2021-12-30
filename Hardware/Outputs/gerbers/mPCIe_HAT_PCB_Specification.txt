@@ -1,0 +1,51 @@
+Board properties:
+	4 Layers stackup
+	Width: 65 mm
+	Height: 56.5 mm
+	Thickness: 1.6 mm
+
+Layers:
+	Top Silkscreen
+	Top Solder mask
+	Copper Top - 35um
+	FR4 - 0.202 mm
+	Copper Inner1 - 35um
+	FR4 - 1.0 mm
+	Copper Inner2 - 35um
+	FR4 - 0.202 mm
+	Copper Bottom - 35um
+	Bottom Solder mask
+	Bottom Silkscreen
+
+Drill pairs:
+	Top - Bottom
+	Top- Inner1
+	Top- Inner2
+
+Smallest structures:
+	Track width: 0.15 mm
+	Spacing: 0.1 mm
+	Via Hole size: 0.2 mm
+
+Board material: FR4 TG135 with TG>=135 °C
+Solder mask colour: RGB (159,0,75)
+Silk screen colour: White
+
+PCB Manufacturing files:
+
+FILE NAME 		DESCRIPTION			FILE TYPE
+
+*.GTL		Top Copper Layer		Gerber
+*.G1		Inner1 Copper Layer		Gerber
+*.G2		Inner2 Copper Layer		Gerber
+*.GBL		Bottom Copper Layer		Gerber
+*.GTS		Solder mask top side		Gerber
+*.GBS		Solder mask bottom side		Gerber
+*.GTO		Silkscreen top side		Gerber
+*.GBO		Silkscreen bottom side		Gerber
+*.GD1		Drill Drawing Drill-Pair 1	Gerber
+*.GD2		Drill Drawing Drill-Pair 2	Gerber
+*.GG1		Drill Guide Drill-Pair 1	Gerber
+*.GG2		Drill Guide Drill-Pair 2	Gerber
+*.GKO		Board Cut definition		Gerber
+*.apr		Aperture definition	

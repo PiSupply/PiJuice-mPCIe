@@ -4,10 +4,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 2
-Title "mPCIe_HAT-SchDoc"
-Date "09 02 2021"
-Rev ""
-Comp ""
+Title "PiJuice mPCIe HAT"
+Date "2021-12-30"
+Rev "1.1"
+Comp "Nebra Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -70,10 +70,6 @@ Text Label 7100 1200 0    60   ~ 0
 EAR1P
 Text Label 7100 1300 0    60   ~ 0
 EAR1N
-Text Notes 6450 7000 0    60   ~ 0
-PiJuice mPCIe HAT
-Text Notes 9950 7850 0    60   ~ 0
-1.0
 Text Notes 4350 6500 0    60   ~ 0
 on final release change via to microvia 0.15mm
 Text Notes 2750 8000 0    60   ~ 0
@@ -2361,7 +2357,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BC856BS.pdf" H 3200 5000 5
 F 4 "BC856S" H 3200 5000 50  0001 C CNN "Part Number"
 F 5 "NEXPERIA" H 3200 5000 50  0001 C CNN "Manufacturer"
 	2    3200 5000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L mPCIe_HAT-SchLib:R- R32
@@ -2381,7 +2377,7 @@ L mPCIe_HAT-SchLib:R- R33
 U 1 1 60F54679
 P 3300 5700
 F 0 "R33" V 3700 5500 60  0000 L BNN
-F 1 "62K" V 3550 5750 60  0000 L BNN
+F 1 "62K" V 3575 5500 60  0000 L BNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 3700 5700 60  0001 C CNN
 F 3 "" H 3700 5700 60  0001 C CNN
 F 4 "Yageo" H 3300 5700 50  0001 C CNN "Manufacturer"
@@ -2404,7 +2400,7 @@ F 3 "" H 2950 5700 50  0001 C CNN
 $EndComp
 Connection ~ 2950 5700
 Wire Wire Line
-	2950 5700 3300 5700
+	2950 5700 3075 5700
 Wire Wire Line
 	2850 5000 3000 5000
 Wire Wire Line
@@ -2427,7 +2423,7 @@ F 5 "Diodes" V 2950 4750 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3300 5200 2950 5200
+	3300 5200 3075 5200
 Wire Wire Line
 	2950 5200 2950 4950
 Connection ~ 3300 5200
@@ -2842,7 +2838,7 @@ F 3 "https://gct.co/connector/BG125" H 3450 3750 50  0001 C CNN
 F 4 "BG125-06-A-1-1-0440-N-C" H 3450 3750 50  0001 C CNN "Part Number"
 F 5 "GCT" H 3450 3750 50  0001 C CNN "Manufacturer"
 F 6 "BS1-006-H500-55/B" H 3450 3750 50  0001 C CNN "Alternative"
-F 7 "E-tec" H 3450 3750 50  0001 C CNN "Alternative Manufacturer Alternative"
+F 7 "E-tec" H 3450 3750 50  0001 C CNN "Alternative Manufacturer"
 	1    3450 3750
 	-1   0    0    -1  
 $EndComp
@@ -2952,11 +2948,11 @@ L mPCIe_HAT-SchLib:CCER- C5
 U 1 1 602298B9
 P 5100 5550
 F 0 "C5" H 5300 5460 60  0000 L BNN
-F 1 "33pF" H 5200 5350 60  0000 L BNN
+F 1 "100nF" H 5200 5350 60  0000 L BNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5200 5350 60  0001 C CNN
 F 3 "" H 5200 5350 60  0001 C CNN
-F 4 "Yageo" H 5100 5550 50  0001 C CNN "Manufacturer"
-F 5 "CC0402JRNP09BN330" H 5100 5550 50  0001 C CNN "Part Number"
+F 4 "100nF" H 5100 5550 50  0001 C CNN "Manufacturer"
+F 5 "GRM155R61E104KA87D" H 5100 5550 50  0001 C CNN "Part Number"
 	1    5100 5550
 	1    0    0    -1  
 $EndComp
@@ -2968,8 +2964,8 @@ F 0 "FB1" H 6110 5530 60  0000 R TNN
 F 1 "~" H 5700 5350 50  0001 C CNN
 F 2 "PiJuice_mPCIe_HAT_PcbLib:FBD_1206_3216Metric" H 5700 5350 50  0001 C CNN
 F 3 "" H 5700 5350 50  0001 C CNN
-F 4 "Laird Technologies" H 5700 5350 50  0001 C CNN "Manufacturer"
-F 5 "HI1206T500R-10" H 5700 5350 50  0001 C CNN "Part Number"
+F 4 "Taiyo Yuden" H 5700 5350 50  0001 C CNN "Manufacturer"
+F 5 "FBMJ3216HS480NT" H 5700 5350 50  0001 C CNN "Part Number"
 	1    5700 5350
 	-1   0    0    1   
 $EndComp
@@ -3085,4 +3081,23 @@ F 5 "Yageo" V 2250 5050 50  0001 C CNN "Manufacturer"
 	1    2250 5050
 	0    1    1    0   
 $EndComp
+$Comp
+L mPCIe_HAT-SchLib:R- R36
+U 1 1 6101A65B
+P 3075 5700
+F 0 "R36" V 3475 5725 60  0000 L BNN
+F 1 "62K" V 3350 5725 60  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3475 5700 60  0001 C CNN
+F 3 "" H 3475 5700 60  0001 C CNN
+F 4 "Yageo" H 3075 5700 50  0001 C CNN "Manufacturer"
+F 5 "RC0402FR-0762KL" H 3075 5700 50  0001 C CNN "Part Number"
+	1    3075 5700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3075 5700
+Wire Wire Line
+	3075 5700 3300 5700
+Connection ~ 3075 5200
+Wire Wire Line
+	3075 5200 2950 5200
 $EndSCHEMATC

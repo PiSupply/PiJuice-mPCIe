@@ -1,4 +1,5 @@
-(module SODFL1006X40N (layer F.Cu) (tedit 60271211)
+(module SODFL1006X40N (layer F.Cu) (tedit 61CD9070)
+  (attr smd)
   (fp_text reference REF** (at 0.782 -1.1564) (layer F.SilkS)
     (effects (font (size 0.64 0.64) (thickness 0.015)))
   )
